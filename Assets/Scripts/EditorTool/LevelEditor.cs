@@ -64,14 +64,19 @@ public class LevelEditor : EditorWindow
         var selections = Selection.gameObjects;
         
         var offsetPos = selections[0].GetComponent<RectTransform>().rect.width / 2f;
+        var offsetPosBottom = selections[0].GetComponent<RectTransform>().rect.height / 2f;
         var leftMostPos = selections[0].transform.localPosition.x - offsetPos;
+        var bottomMostPos = selections[0].transform.localPosition.y - offsetPosBottom;
 
         foreach (var selection in selections)
         {
             if(!selection.TryGetComponent<RectTransform>(out var rect)) continue;
             var lMostPos = rect.transform.localPosition.x - rect.rect.width / 2f;
+            var bMostPos = rect.transform.localPosition.y - rect.rect.height / 2f;
             if(lMostPos < leftMostPos)
                 leftMostPos = lMostPos;
+            if(bMostPos < bottomMostPos)
+                bottomMostPos = bMostPos;
         }
         
         var level = new Level
@@ -84,12 +89,14 @@ public class LevelEditor : EditorWindow
             if (!go.TryGetComponent<Image>(out var img)) continue;
             var pos = img.rectTransform.localPosition;
             pos.x -= leftMostPos;
+            pos.y -= bottomMostPos;
             level.imageInfos.Add(new ImageInfo()
             {
                 Sprite = img.sprite,
                 Position = pos,
                 Rotation = img.transform.rotation.eulerAngles,
-                Scale = img.transform.lossyScale
+                Scale = img.transform.lossyScale,
+                sizeDelta = img.rectTransform.sizeDelta
             });
         }
         

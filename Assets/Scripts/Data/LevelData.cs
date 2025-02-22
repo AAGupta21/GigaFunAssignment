@@ -21,4 +21,5 @@ public class ImageInfo
     public Vector3 Position;
     public Vector3 Rotation;
     public Vector3 Scale;
+    public Vector2 sizeDelta;
 }

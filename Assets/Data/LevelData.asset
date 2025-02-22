@@ -15,38 +15,47 @@ MonoBehaviour:
   Levels:
   - imageInfos:
     - Sprite: {fileID: 21300000, guid: f6e3343943930c646aac2a83e66a12c0, type: 3}
-      Position: {x: 270, y: 713, z: 0}
+      Position: {x: 50.8275, y: 225.60013, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 100, y: 100}
     - Sprite: {fileID: 21300000, guid: 8bb4c2c1ed475c24eb9484e7dc8d45fb, type: 3}
-      Position: {x: 747.6, y: 718, z: 0}
+      Position: {x: 139.8275, y: 226.93011, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 106.2146, y: 97.3366}
     - Sprite: {fileID: 21300000, guid: c8ba7af1541da944bb629accf25032ca, type: 3}
-      Position: {x: 1249, y: 666, z: 0}
+      Position: {x: 224.2815, y: 214.10013, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 84.9074, y: 106.56}
     - Sprite: {fileID: 21300000, guid: 2f9dae9c19da89847ae3f1c7655e4335, type: 3}
-      Position: {x: 270, y: 261.5, z: 0}
+      Position: {x: 50.8275, y: 143.30011, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 101.655, y: 100}
     - Sprite: {fileID: 21300000, guid: b18c167a8d682c448a4dfb99d1a41fee, type: 3}
-      Position: {x: 765.89996, y: 247.1, z: 0}
+      Position: {x: 143.1275, y: 141.30011, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 107.9993, y: 100}
     - Sprite: {fileID: 21300000, guid: 28dcd1c7acf38df4ba7679f5fb36cdfc, type: 3}
-      Position: {x: 1271.6, y: 244.2, z: 0}
+      Position: {x: 232.9775, y: 139.0101, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 88.3, y: 100}
     - Sprite: {fileID: 21300000, guid: 9f0fbab3d7a2f15409f6282af8161af4, type: 3}
-      Position: {x: 349.69998, y: -200, z: 0}
+      Position: {x: 66.63852, y: 54.895752, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 125.4221, y: 109.7915}
     - Sprite: {fileID: 21300000, guid: d365612c6bf06d4468dfdacbf25f27c2, type: 3}
-      Position: {x: 802, y: -222.00002, z: 0}
+      Position: {x: 151.6555, y: 50.80008, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 100, y: 101.6}
     - Sprite: {fileID: 21300000, guid: a980cddd5e595db458f5f2615f69c403, type: 3}
-      Position: {x: 1219.6, y: -215, z: 0}
+      Position: {x: 226.56259, y: 52.306305, z: 0}
       Rotation: {x: -0, y: 0, z: 0}
       Scale: {x: 0.9, y: 0.9, z: 0.9}
+      sizeDelta: {x: 101.1299, y: 101.4124}
