@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2366621566458293185}
   - component: {fileID: 6244625911052335414}
   - component: {fileID: 2368641351856072059}
-  - component: {fileID: 1543259466368989468}
   m_Layer: 5
   m_Name: GhostImg
   m_TagString: Untagged
@@ -76,17 +75,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1543259466368989468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2939889558065466569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bea97b2621d571e4e812d16d79c2de89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {x: 0, y: 0, z: 0}
-  targetPosition: {x: 0, y: 0, z: 0}

@@ -10,6 +10,12 @@ public class LevelEditor : EditorWindow
 {
     private const string DataPath = "Assets/Data/LevelData.asset";
     private LevelData _levelData;
+
+    [MenuItem("Tools/ClearPrefs")]
+    public static void ClearPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     
     [MenuItem("Tools/Generate Level")]
     public static void GenerateLevel()
