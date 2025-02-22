@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31e8a728d8c55e4d92a15453676dfcf, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  Levels:
+  - imageInfos:
+    - Sprite: {fileID: 21300000, guid: f6e3343943930c646aac2a83e66a12c0, type: 3}
+      Position: {x: 270, y: 713, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: 8bb4c2c1ed475c24eb9484e7dc8d45fb, type: 3}
+      Position: {x: 747.6, y: 718, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: c8ba7af1541da944bb629accf25032ca, type: 3}
+      Position: {x: 1249, y: 666, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: 2f9dae9c19da89847ae3f1c7655e4335, type: 3}
+      Position: {x: 270, y: 261.5, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: b18c167a8d682c448a4dfb99d1a41fee, type: 3}
+      Position: {x: 765.89996, y: 247.1, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: 28dcd1c7acf38df4ba7679f5fb36cdfc, type: 3}
+      Position: {x: 1271.6, y: 244.2, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: 9f0fbab3d7a2f15409f6282af8161af4, type: 3}
+      Position: {x: 349.69998, y: -200, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: d365612c6bf06d4468dfdacbf25f27c2, type: 3}
+      Position: {x: 802, y: -222.00002, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
+    - Sprite: {fileID: 21300000, guid: a980cddd5e595db458f5f2615f69c403, type: 3}
+      Position: {x: 1219.6, y: -215, z: 0}
+      Rotation: {x: -0, y: 0, z: 0}
+      Scale: {x: 0.9, y: 0.9, z: 0.9}
